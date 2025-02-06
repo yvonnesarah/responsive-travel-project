@@ -37,11 +37,11 @@ Application can be viewed here:
 * [Repository](https://github.com/yvonnesarah/responsive-travel-project)
 
 ## 🖼 Screenshot(S)
-Below is a preview of Travel:
+Below is a preview of Travel
 ![Screenshot](assets/images/travel.png "Travel")
 
 
-Travel to Paris:
+Travel to Paris
 ![Screenshot](assets/images/travel-paris.png "Travel Paris")
 
 
