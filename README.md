@@ -50,6 +50,7 @@ Paris Cafes
 
 
 
+
 Paris Gallery
 ![Screenshot](assets/images/travel-bottom.png "Paris Gallery")
 
