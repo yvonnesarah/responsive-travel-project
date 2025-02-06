@@ -40,11 +40,15 @@ Application can be viewed here:
 Below is a preview of Travel:
 ![Screenshot](assets/images/travel.png "Travel")
 
-Travel to Paris
+
+Travel to Paris:
 ![Screenshot](assets/images/travel-paris.png "Travel Paris")
+
 
 Paris Cafes
 ![Screenshot](assets/images/travel-cafes.png "Paris Cafes")
+
+
 
 Paris Gallery
 ![Screenshot](assets/images/travel-bottom.png "Paris Gallery")
