@@ -1,73 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Meta tags to ensure proper rendering and responsiveness -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Preconnect to external font resources to speed up page load -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Link to Google Fonts stylesheet for Poppins font family -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="src/styles.css" />
+    
+    <!-- Link to the custom CSS stylesheet -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    
+    <!-- Title of the webpage -->
     <title>Welcome to Paris</title>
   </head>
   <body>
+    <!-- Main content container -->
     <div class="container">
+      
+      <!-- Header section with welcome message -->
       <header>
         <h3>.TRAVEL.</h3>
         <h1>Welcome to Paris</h1>
         <h2>Capital city of France</h2>
+        
+        <!-- Link to navigate to the "Learn more" section -->
         <a href="#more">Learn more</a>
       </header>
+      
+      <!-- Main content section -->
       <main>
+        
+        <!-- Grid layout for main content -->
         <section class="grid grid-2-columns">
           <div>
+            <!-- Image of a Parisian building -->
             <img
-              src="images/building.png"
+              src="./assets/images/building.png"
               alt="Paris Building"
               class="img-responsive"
             />
           </div>
           <div>
-         <a name="more"></a>
-          <h2>Why Paris?</h2>
+            <!-- Anchor to jump to the "more" section -->
+            <a name="more"></a>
+            
+            <h2>Why Paris?</h2>
             <h3>Paris, the city of Love</h3>
+            
+            <!-- Paragraph explaining why Paris is known as the City of Love -->
             <p>
               When did Paris get its reputation as the City of Love? For centuries, Paris has been known as a romantic city. The French capital has long been associated with love and romance. How did Paris become known as the City of Love? Here's a look at Paris’ ‘City of Love’ history.
-           </p>
+            </p>
             <p>
-              Paris has always been a popular tourist destination, thanks in part to its rich history and world-renowned landmarks. However, it wasn't until the early 20th century that Paris truly became known as the City of Love. That's when writers such as Émile Zola popularized the city's romantic atmosphere in their novels and stories. The popularity of Paris as a destination for love was later boosted by the arrival of Hollywood stars such as Fred Astaire and Judy Garland in the 1930s.                                                                 </p>
-             <p>
-             However, the reasons why Paris is the City of Love can be traced back to the Middle Ages when Paris was a small, rural community. The city's many canals and waterways made it a popular place for lovers to meet and exchange secrets. Over time, the city's romantic atmosphere spread to all social classes. Paris has a history of love affairs and secret meetings. Throughout its long history, Paris has been home to many famous lovers, such as Louis XIV and Marie Antoinette. Today, Paris is still considered one of the most romantic cities in the world.
-        </p>
-
+              Paris has always been a popular tourist destination, thanks in part to its rich history and world-renowned landmarks. However, it wasn't until the early 20th century that Paris truly became known as the City of Love. That's when writers such as Émile Zola popularized the city's romantic atmosphere in their novels and stories. The popularity of Paris as a destination for love was later boosted by the arrival of Hollywood stars such as Fred Astaire and Judy Garland in the 1930s.
+            </p>
+            <p>
+              However, the reasons why Paris is the City of Love can be traced back to the Middle Ages when Paris was a small, rural community. The city's many canals and waterways made it a popular place for lovers to meet and exchange secrets. Over time, the city's romantic atmosphere spread to all social classes. Paris has a history of love affairs and secret meetings. Throughout its long history, Paris has been home to many famous lovers, such as Louis XIV and Marie Antoinette. Today, Paris is still considered one of the most romantic cities in the world.
+            </p>
           </div>
         </section>
-<section class="secondary">
+        
+        <!-- Secondary section showcasing popular cafés in Paris -->
+        <section class="secondary">
           <h2 class="text-center">CAFÉS</h2>
           <h3 class="text-center">My favorite cafés in Paris</h3>
 
+          <!-- Grid layout for displaying café cards -->
           <div class="grid grid-3-columns">
+            
+            <!-- First café card for Angelina Café -->
             <div class="card">
               <div class="card-header">
+                <!-- Image of the café -->
                 <img
-                  src="images/cafes/angelina.png"
-                  alt=""
+                  src="./assets/images/cafes/angelina.png"
+                  alt="Angelina Café"
                   class="img-responsive"
                 />
               </div>
 
               <div class="card-body">
+                <!-- Name and description of the café -->
                 <h4>Angelina Café</h4>
                 <p>
                   Legendary 1903 tea room offering refined pastries & hot chocolate in a belle epoque-style setting.
-                 </p>
+                </p>
                 <h5>Address:</h5>
                 <p>226 Rue de Rivoli, 75001 Paris, France</p>
-               </div>
+              </div>
               <div class="card-footer">
+                <!-- Link to learn more about the café -->
                 <a
                   href="https://maps.app.goo.gl/mxF4TV5dADgbGU4b6"
                   class="btn"
@@ -77,11 +108,13 @@
                 </a>
               </div>
             </div>
+            
+            <!-- Second café card for Le Consulat Café -->
             <div class="card">
               <div class="card-header">
                 <img
-                  src="images/cafes/le-consulat.png"
-                  alt=""
+                  src="./assets/images/cafes/le-consulat.png"
+                  alt="Le Consulat Café"
                   class="img-responsive"
                 />
               </div>
@@ -93,7 +126,7 @@
                 </p>
                 <h5>Address:</h5>
                 <p>18 Rue Norvins, 75018 Paris, France</p>
-                 </div>
+              </div>
               <div class="card-footer">
                 <a
                   href="https://maps.app.goo.gl/DULRxcbsk2icZJUe9"
@@ -104,11 +137,13 @@
                 </a>
               </div>
             </div>
+            
+            <!-- Third café card for Café des Deux Moulins Café -->
             <div class="card">
               <div class="card-header">
                 <img
-                  src="images/cafes/moulins.png"
-                  alt=""
+                  src="./assets/images/cafes/moulins.png"
+                  alt="Café des Deux Moulins"
                   class="img-responsive"
                 />
               </div>
@@ -120,7 +155,7 @@
                 </p>
                 <h5>Address:</h5>
                 <p>15 Rue Lepic, 75018 Paris, France</p>
-                </div>
+              </div>
               <div class="card-footer">
                 <a
                   href="https://maps.app.goo.gl/QmmtiQqHXpHxpeuY9"
@@ -151,58 +186,60 @@
       </section>
       </main>
       <footer>
-        <section class="grid grid-3-columns-with-first-narrow">
-          <div>
-            <h3>More about Paris</h3>
-            <ul>
-              <li>
-                <a
-                  href="https://www.parisaeroport.fr/en"
-                  target="_blank"
-                >
-                  Paris Airport website
-                </a>
-              </li>
-              <li>
-                <a href="https://maps.app.goo.gl/hHqf8PTv4dSWd5f69" target="_blank">
-                  Map of Paris
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://metromap.fr/en"
-                  target="_blank"
-                >
-                  Public transport map
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3>About me</h3>
-            <p>
-              Hi! My name is Yvonne and I'm very fond of the city. I created this page as part of a
-              project for SheCodes Responsive to develop my coding skills.
-            </p>
-          </div>
-          <div>
-            <h3>About this website</h3>
-            <p>
-              I created this page as part of a project for SheCodes Responsive
-              to develop my coding skills.
-              <br />
-               This project was coded by
-        <a href="https://github.com/yvonnesarah" target="_blank"
-          >Yvonne Adedeji</a
-        >
+  <!-- Footer Section with Grid Layout -->
+  <section class="grid grid-3-columns-with-first-narrow">
+    
+    <!-- First Column: Links about Paris -->
+    <div>
+      <h3>More about Paris</h3>
+      <ul>
+        <!-- Link to Paris Airport Website -->
+        <li>
+          <a href="https://www.parisaeroport.fr/en" target="_blank">
+            Paris Airport website
+          </a>
+        </li>
+        <!-- Link to Map of Paris -->
+        <li>
+          <a href="https://maps.app.goo.gl/hHqf8PTv4dSWd5f69" target="_blank">
+            Map of Paris
+          </a>
+        </li>
+        <!-- Link to Public Transport Map of Paris -->
+        <li>
+          <a href="https://metromap.fr/en" target="_blank">
+            Public transport map
+          </a>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- Second Column: About the Creator -->
+    <div>
+      <h3>About me</h3>
+      <p>
+        Hi! My name is Yvonne and I'm very fond of the city. I created this page as part of a
+        project for SheCodes Responsive to develop my coding skills.
+      </p>
+    </div>
+    
+    <!-- Third Column: About the Website -->
+    <div>
+      <h3>About this website</h3>
+      <p>
+        I created this page as part of a project for SheCodes Responsive
+        to develop my coding skills.
+        <br />
+        This project was coded by
+        <a href="https://github.com/yvonnesarah" target="_blank">Yvonne Adedeji</a>
         and is open-sourced on
         <a href="https://github.com/yvonnesarah/responsive-travel-project" target="_blank">GitHub</a>
         and hosted on
         <a href="https://ya-responsive-travel-project.netlify.app/" target="_blank">Netlify</a>.
-           </p>
-          </div>
-        </section>
-      </footer>
+      </p>
+    </div>
+  </section>
+</footer>
     </div>
   </body>
 </html>

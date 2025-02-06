@@ -1,0 +1,269 @@
+/* Body Styling */
+body {
+  font-family: "Poppins", sans-serif; /* Setting a clean and modern font */
+  background: #272044; /* Dark purple background color */
+}
+
+/* General Container Styling */
+.container {
+  max-width: 1400px; /* Restrict maximum width of content */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+/* Center text alignment */
+.text-center {
+  text-align: center;
+}
+
+/* Grid Layouts */
+.grid {
+  display: grid; /* Use CSS grid for layout */
+  grid-gap: 64px; /* Space between grid items */
+}
+
+/* Image Responsiveness */
+.img-responsive {
+  width: 100%; /* Ensure images take up full width of container */
+  display: block; /* Remove inline-block styling */
+}
+
+/* Grid Variants for Different Column Layouts */
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+}
+
+.grid-3-columns-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr; /* Three columns, first one narrower */
+}
+
+/* Embed Media Styling */
+.embed {
+  width: 100%; /* Ensure media embed is fully responsive */
+  aspect-ratio: 1 / 1; /* Maintain a 1:1 aspect ratio */
+}
+
+.instagram-embeds {
+  margin: 30px 0; /* Add spacing around Instagram embeds */
+}
+
+/* Card Component Styling */
+.card {
+  background: white; /* Card has white background */
+  margin: 30px 0; /* Spacing around cards */
+}
+
+.card-header.grid {
+  grid-gap: 0; /* Remove grid gap in card header */
+}
+
+.card-body {
+  padding: 30px; /* Add padding inside card body */
+}
+
+.card-footer {
+  padding: 0 30px 30px; /* Add padding inside card footer */
+}
+
+/* Button Styling */
+.btn {
+  display: block; /* Button is a block-level element */
+  color: white; /* White text color */
+  font-weight: 700; /* Bold text */
+  font-size: 14px; /* Medium font size */
+  line-height: 21px; /* Appropriate line height */
+  text-align: center; /* Center text */
+  letter-spacing: 3px; /* Slight letter spacing for emphasis */
+  text-transform: uppercase; /* Uppercase text */
+  padding: 16px; /* Padding around the text */
+  background-color: #462cb3; /* Purple background for button */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Section Styling */
+section {
+  max-width: 100%; /* Full-width section */
+  margin: 0 auto; /* Center section */
+  padding: 100px; /* Add padding inside section */
+}
+
+/* Secondary Section with different background color */
+section.secondary {
+  background: #f8f8f8; /* Light gray background */
+}
+
+/* Header Section Styling */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/disneyland-paris.png"); /* Background image with gradient */
+  background-repeat: no-repeat; /* No repeating of background image */
+  background-size: cover; /* Cover the entire header */
+  color: white; /* White text */
+  text-align: center; /* Center align text */
+  padding: 200px 0; /* Padding around header */
+}
+
+header h1 {
+  font-weight: 700; /* Bold text */
+  font-size: 96px; /* Large font size */
+  line-height: 1; /* Tight line height */
+  margin: 30px 0; /* Spacing around the header text */
+}
+
+header h2 {
+  font-weight: 400; /* Lighter weight */
+  font-size: 40px; /* Medium-large size */
+  line-height: 1.5; /* Relaxed line height */
+  margin: 0; /* No margin */
+}
+
+header h3 {
+  font-weight: 900; /* Extra bold weight */
+  font-size: 24px; /* Medium font size */
+  line-height: 1.5; /* Relaxed line height */
+  letter-spacing: 5px; /* Extra spacing between letters */
+  margin: 0; /* No margin */
+}
+
+header a {
+  font-weight: 700; /* Bold text */
+  font-size: 14px; /* Smaller font size */
+  line-height: 1.5; /* Relaxed line height */
+  text-align: center; /* Center align the link */
+  color: #272044; /* Dark purple text */
+  padding: 16px 32px; /* Padding around the link */
+  margin-top: 32px; /* Spacing above the link */
+  display: inline-block; /* Make the link behave like a button */
+  letter-spacing: 3px; /* Add spacing between letters */
+  text-decoration: none; /* No underline */
+  text-transform: uppercase; /* Uppercase text */
+  background: white; /* White background */
+}
+
+/* Main Content Styling */
+main {
+  background-color: white; /* White background for main content */
+}
+
+main h2 {
+  font-weight: 700; /* Bold header */
+  font-size: 16px; /* Small size */
+  line-height: 1.5; /* Relaxed line height */
+  margin: 0; /* No margin */
+  letter-spacing: 5px; /* Spacing between letters */
+  color: #272044; /* Dark purple color */
+  opacity: 0.3; /* Semi-transparent */
+  text-transform: uppercase; /* Uppercase text */
+}
+
+main h3 {
+  font-weight: 700; /* Bold header */
+  font-size: 40px; /* Large font size */
+  line-height: 1.5; /* Relaxed line height */
+  color: #272044; /* Dark purple color */
+  margin: 0; /* No margin */
+}
+
+main h4 {
+  font-weight: 700; /* Bold header */
+  font-size: 24px; /* Medium font size */
+  line-height: 1; /* Tight line height */
+  color: #272044; /* Dark purple color */
+  margin: 0; /* No margin */
+}
+
+main h5 {
+  font-weight: 700; /* Bold header */
+  font-size: 13px; /* Small size */
+  margin: 0; /* No margin */
+  line-height: 1; /* Tight line height */
+  color: #272044; /* Dark purple color */
+}
+
+main p {
+  font-style: normal; /* Normal font style */
+  font-weight: 400; /* Regular weight */
+  font-size: 16px; /* Medium font size */
+  line-height: 1.5; /* Relaxed line height */
+  color: #272044; /* Dark purple color */
+  opacity: 0.7; /* Slight transparency */
+}
+
+/* Footer Styling */
+footer {
+  color: white; /* White text */
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../images/paris-footer.png"); /* Background image with gradient */
+  background-repeat: no-repeat; /* No repeating of background image */
+  background-size: cover; /* Cover the entire footer */
+}
+
+footer h3 {
+  font-weight: 700; /* Bold text */
+  font-size: 20px; /* Medium font size */
+  line-height: 30px; /* Relaxed line height */
+}
+
+footer p {
+  font-weight: 400; /* Regular weight */
+  font-size: 16px; /* Medium font size */
+  opacity: 0.7; /* Slight transparency */
+  line-height: 24px; /* Relaxed line height */
+}
+
+footer ul {
+  padding: 0; /* Remove padding from list */
+}
+
+footer li {
+  list-style: none; /* Remove bullet points */
+  margin: 0; /* No margin */
+  padding: 0; /* No padding */
+}
+
+footer a {
+  color: white; /* White text color */
+  opacity: 0.7; /* Slight transparency */
+}
+
+/* Responsive Styling for Smaller Screens */
+@media (max-width: 960px) {
+  header {
+    padding: 60px 0; /* Less padding on smaller screens */
+  }
+
+  header h1 {
+    font-size: 48px; /* Smaller font size for h1 */
+  }
+
+  header h2 {
+    font-size: 20px; /* Smaller font size for h2 */
+  }
+
+  header h3 {
+    font-size: 12px; /* Smaller font size for h3 */
+  }
+
+  .grid {
+    grid-template-columns: 1fr; /* Switch to single column layout */
+    grid-gap: 32px; /* Reduce gap between grid items */
+  }
+
+  section {
+    padding: 30px; /* Less padding in sections */
+  }
+
+  .card-header img {
+    display: none; /* Hide images in card header */
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9; /* Adjust embed aspect ratio for smaller screens */
+  }
+}
