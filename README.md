@@ -1,4 +1,4 @@
-# ai-generator-project 
+# responsive-travel-project
 
 ## 📌 Description
 This project is a travel website dedicated to the city of Paris, highlighting its reputation as the "City of Love." It includes information about Paris, its famous landmarks and the best cafés to visit while exploring the city. The site features a clean, modern design with an easy-to-navigate layout, making it an ideal resource for travelers and lovers of Parisian culture. This project also showcases images from Paris, embedded directly from Instagram. The gallery is designed with a clean and responsive layout to display multiple images beautifully.
