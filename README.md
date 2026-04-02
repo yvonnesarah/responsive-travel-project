@@ -7,7 +7,7 @@ This project is a travel website dedicated to the city of Paris, highlighting it
 A valid Instagram account with publicly accessible posts
 An Instagram post link to embed
 
-## 📋 Criteria
+## 📋 Features
 * Modern and responsive design for multiple screen sizes.
 * Information about Paris as a city of love.
 * Presentation of some iconic cafés in Paris.
