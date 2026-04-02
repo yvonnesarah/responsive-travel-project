@@ -4,8 +4,10 @@
 This project is a travel website dedicated to the city of Paris, highlighting its reputation as the "City of Love." It includes information about Paris, its famous landmarks and the best cafés to visit while exploring the city. The site features a clean, modern design with an easy-to-navigate layout, making it an ideal resource for travelers and lovers of Parisian culture. This project also showcases images from Paris, embedded directly from Instagram. The gallery is designed with a clean and responsive layout to display multiple images beautifully.
 
 ## 🛠 Prerequisites
-A valid Instagram account with publicly accessible posts
-An Instagram post link to embed
+* A modern web browser (Chrome, Firefox, Edge)
+* A valid Instagram account (optional, for testing embeds)
+* Public Instagram post links for embedding content
+* Internet connection (required for Instagram embeds and Google Fonts)
 
 ## 📋 Features
 * Modern and responsive design for multiple screen sizes.
@@ -58,8 +60,25 @@ Paris Cafes
 Paris Gallery
 ![Screenshot](assets/images/travel-bottom.png "Paris Gallery")
 
+## 🚀 Future Improvements
+To further enhance the travel website, the following features can be added:
+* 🌍 Multi-City Support - Expand the website to include other popular travel destinations beyond Paris.
+* 🔍 Search & Filter Functionality - Allow users to search for cafés or filter them by category (e.g., romantic, budget-friendly).
+* 🗺 Interactive Map Integration - Integrate maps (Google Maps) to show café locations and landmarks.
+* ⭐ User Reviews & Ratings - Enable users to leave feedback and rate cafés or locations.
+* 🌙 Dark Mode Toggle - Add a dark/light theme option for improved accessibility.
+* 📱 Enhanced Mobile Optimization - Further refine layout and responsiveness for smaller devices.
+* 📸 Dynamic Instagram Feed - Automatically fetch and display the latest posts instead of manual embedding.
+* 🌐 Localization / Multi-language Support - Provide translations for international users.
+
 ## 👥 Credit
-Instagram API for embedding photos
+This project makes use of the following resources:
+
+Instagram Embed API – for displaying embedded social media posts
+
+Google Fonts – for typography and improved visual design
+
+Paris imagery & inspiration – sourced from publicly available Instagram content and general travel references
 
 ## 📜 License
 This project is open-source. For licensing details, please refer to the LICENSE file in the repository.
